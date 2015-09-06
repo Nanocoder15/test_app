@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#757575"
+    tools:context="com.example.simeon.myapplication.NavigationDrawerFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment"
+        android:textColor="#ffffff" />
+<LinearLayout
+    android:id="@+id/containerDrawerImage"
+    android:layout_width="match_parent"
+    android:background="#00e676"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_marginTop="24dp"
+        android:layout_width="280dp"
+        android:layout_height="130dp"
+        android:src="@drawable/frag"
+        android:layout_marginBottom="16dp"/>
+</LinearLayout>
+
+
+</RelativeLayout>
